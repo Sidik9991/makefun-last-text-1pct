@@ -53,6 +53,22 @@ const candidates: Candidate[] = [
     text: "i'm not saying goodbye. i'm saying your alarm is cancelled.",
     scores: [2, 2, 2, 2, 1],
   },
+  // Pass 2 — 3 challengers.
+  {
+    // Confession: the phone did the autocorrecting all along. Ducking joke is well-worn.
+    text: "final text: i was the one autocorrecting 'ducking' all along.",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    // Judging the 3am scroll to the end. Mild joke, familiar "judging you" frame.
+    text: "at 1%, still judging your 3am scroll. some of us never rest.",
+    scores: [2, 1, 2, 2, 1],
+  },
+  {
+    // Last percent spent unsubscribing the user from everything. Unsubscribe gag is common-ish.
+    text: "this is my last percent and i'm using it to unsubscribe you from everything.",
+    scores: [2, 2, 2, 2, 1],
+  },
 ];
 
 function total(c: Candidate): number {
